@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/toast_view_text"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="#FF41A317"
+        android:gravity="center"
+        android:textColor="#FF000000"
+        android:textSize="25sp"
+        android:layout_margin="5dp" >
+    </TextView>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="@color/gray" />
+
+    <ImageView
+        android:id="@+id/imageViewProfleImage"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:src="@drawable/unknown_user" >
+    </ImageView>
+
+</LinearLayout>
